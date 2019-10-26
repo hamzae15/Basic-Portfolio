@@ -1,77 +1,151 @@
-* {
-    box-sizing: border-box;
-  text-align: center;
+body{
+    
+  margin: 0 auto;
+  background-image: url("../images/so-white.png");
+ font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
-body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
+.Name{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background: #4aaaa5;
+  font-size: 27px;
+  color: white;
+  float: left;
+  padding: 10px;
+}
+header{
+  background: white;
+}
+#h1footer{
+  color: rgb(41, 96, 179);
+  border-bottom: 2px solid #cac2c2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.container{
+  height: 46px ;
+  border-bottom: 1px solid rgb(28, 28, 39);
+  margin-bottom: 15px;
+  margin: 0 auto;
+  width: 960px;
+  font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navlinks{
+  float: right;
+  padding: 10px;
+  font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.content{
+  width: 960px;
+  background: #ffffff;
+  border: solid;
+  border-color: rgb(158, 157, 157);
+  border-width: 1px;
+  display: block;
+  padding: 30px;
+  margin: 30px auto;
+  box-sizing: border-box;
+  font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
+}
+li {
+  display: inline;
+  font-family:'Times New Roman', 'Helvetica Neue', Helvetica, sans-serif;
+}
+ul{
+  top: 94px;
+  width: 100%;
+  float: left;
+}
+nav{
+  float: right;
+}
+.footer{
+    background-color: gray;
+    border-top:5px solid  teal;
+    height:100px;
+    display:block;
+    width:100%;
+    text-align: center;
   }
-  
-  header {
-    float: left;
-    padding: 10px;
-    width: 1400px;
-    margin-bottom: 30px;
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+  #photo1
+  {
+      width: 200px;
+      height: 100px;
+      margin: 5px;
+      /* float: left; */
+      padding:5px;
   }
-  
-  section {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #FFA500;
+  #photo2
+  {
+      width: 200px;
+      height: 100px;
+      margin: 5px;
+      /* float: left; */
+      padding:5px;
   }
-  
-  #left {
-    float: left;
-    padding: 3px;
-    clear: both;
-    width: 33.3%;
-    color: #fff;
-    background: #30948D;
+  #photo3
+  {
+      width: 200px;
+      height: 100px;
+      margin: 5px;
+      /* float:; */
+      padding:5px;
   }
-  
-  #middle {
-    float: left;
-    width: 33.3%;
-    color: #fff;
-    background: rgb(255, 255, 255);
+  #photo4
+  {
+      width: 200px;
+      height: 100px;
+      margin: 5px;
+      /* float:; */
+      padding:5px;
   }
-  
-  #right {
-    float: right;
-    height: 250px;
-    width: 33.3%;
-    color: #fff;
-    background: rgb(172, 48, 48);
+  #photo5
+  {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+      /* float:; */
+      padding:5px;
   }
-  
-  #full {
-    width: 100%;
-    overflow: auto;
-    height: 500px;
-    clear: both;
-    color: #fff;
-    background: #394549;
+  #h1contact
+  {
+      color: teal;
+      border-bottom: 2px solid #cac2c2;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 35px;
   }
-  
-  
-  aside {
-    float: left;
-    width: 33%;
-    height: 400px;
-    padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: #a6b747;
-    border: 1px solid #eee;
-    background-size: 400px 20px
-  }
-  
-  footer {
-    padding: 20px;
-    clear: both;
-    background: #FFA500;
-  }
+  .button
+  {
+      background-color: teal;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      }
+      .content2{
+          width: 960px;
+          background: #ffffff;
+          border: solid;
+          border-color: rgb(158, 157, 157);
+          border-width: 1px;
+          display: block;
+          padding: 30px;
+          margin: 30px auto;
+          box-sizing: border-box;
+      }
+      .content3{
+          width: 611px;
+          background: #ffffff;
+          border: solid;
+          border-color: rgb(158, 157, 157);
+          border-width: 1px;
+          display: block;
+          padding: 30px;
+          margin: 30px auto;
+          box-sizing: border-box;
+      }
